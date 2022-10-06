@@ -24,9 +24,12 @@ export class OsoInstance extends Oso implements CanActivate {
     // TODO: Handle promises
     this.registerClass(Project);
     this.registerClass(ProjectService);
-    this.registerConstant('console', console);
-    const files = ["roles", "permissions"];
-    this.init = Promise.all(files.map(file => this.loadFile(`${__dirname}/${file}.polar`)));
+
+    // this.registerConstant('console', console);
+    
+    let files = ["roles", "permissions"];
+    files = files.map((file) => `${__dirname}/${file}.polar`);
+    this.init = Promise.all(files.map(file => this.loadFiles(files)));
   }
 
   async initialized() {

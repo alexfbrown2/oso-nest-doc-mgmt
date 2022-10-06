@@ -5308,10 +5308,9 @@ os-tmpdir@~1.0.2:
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
 
-oso@0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/oso/-/oso-0.5.0.tgz#2a3cc271d456165c9a3d6eb0ee0a72a67f95dff6"
-  integrity sha512-RcSBs065yeDl/Z6CF2bjjAbyqid/0CsyvNWZT101nTkTGIw7Mu+nYJ6ULLDfegS0NnXP+hoP6lpLjdNyZHaeHA==
+"oso@https://github.com/alexfbrown2/oso-node-preview.git":
+  version "0.21.0"
+  resolved "https://github.com/alexfbrown2/oso-node-preview.git#fd84b440a95c1f479bed9cf056a1f91170ba5049"
 
 p-each-series@^2.1.0:
   version "2.1.0"

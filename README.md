@@ -386,3 +386,11 @@ Only members are allowed to edit specific documents:
 allow(user: User, "edit", document: Document) if
     role(user, "member", document);
 ```
+
+## Mods
+
+Replace the public release of Oso with (my fork of) Sam's version:
+
+```shell
+yarn add https://github.com/alexfbrown2/oso-node-preview.git
+```
